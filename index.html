@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Login</title>
+</head>
+<body>
+
+
+    <main>
+        
+        <div class="contenedor_all"> <!-- Contendrá todo los datos-->
+
+            <div class="clase_trasera"> <!--Clase que contiene los backgrounds de los formularios-->
+            
+                <div class="clase_trasera_login"><!--Clase inferior al login-->
+                    <h3>¿Tienes una cuenta registrada?</h3>
+                    <p>Ingresa tus datos para acceder a la cuenta</p>
+                    <button id="btn_iniciarSesion">Iniciar sesión</button>
+                </div>
+            
+                <div class="clase_trasera_register"> <!--Clase inferior al registro-->
+                    <h3>¿Deseas una cuenta nueva?</h3>
+                    <p>¡Regístrate, es fácil y sencillo</p>
+                    <button id="btn_registrarse">Registrarme</button>
+                </div>
+            </div>
+
+            <div class="formulario_login-register">
+                
+                <form action="" class="formulario_login"> <!--Datos del formulario para iniciar sesión-->
+                    <h2>Inicio de sesión</h2>
+                    <input type="text" placeholder="Nombre de usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Iniciar</button>
+                </form>
+                <form action="" class="formulario_registro"> <!-- Datos del formulario para registrarse como nuevo-->
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre completo">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Nombre de usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Registrarse</button>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="../GCA/js/script.js"></script>
+
+</body>
+</html>
